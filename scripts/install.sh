@@ -1,7 +1,7 @@
 #!/usr/bin/env sh
 set -eu
 
-REPO="davefol/kicad-component-importer"
+REPO="american-sensing/kicad-component-importer"
 BIN_NAME="kicad-component-importer"
 VERSION="${KCI_VERSION:-latest}"
 INSTALL_DIR="${KCI_INSTALL_DIR:-$HOME/.local/bin}"

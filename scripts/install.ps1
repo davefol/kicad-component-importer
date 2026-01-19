@@ -3,7 +3,7 @@ param(
   [string]$InstallDir = $env:KCI_INSTALL_DIR
 )
 
-$repo = "davefol/kicad-component-importer"
+$repo = "american-sensing/kicad-component-importer"
 $binName = "kicad-component-importer.exe"
 
 if (-not $Version) { $Version = "latest" }
